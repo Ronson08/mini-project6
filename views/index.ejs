@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <h1>TO DO</h1>
     <div class="box">
-        
        <% for(var i=0;i<tasks.length;i++){ %>
         <form action="/delete" method="post">
             <div class="item">
@@ -18,9 +18,6 @@
 
         </form>
    <% } %>
-   
-
-
 <form class="item" action="/" method="post">
     <input type="text" name="task" placeholder="Input your task here">
     <button type="submit">+</button>
